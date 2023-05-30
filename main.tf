@@ -6,7 +6,7 @@ secret_key = "wJ9Qj1F8HcXezZNERxYyk1lANwoBcTfBeAsN+KdD"
 }
 
 resource "aws_instance" "one" {
-  ami             = "ami-03c7d01cf4dedc891"
+  ami             = "ami-078efad6f7ec18b8a"
   instance_type   = "t2.micro"
   key_name        = "rahamnewkp01"
   vpc_security_group_ids = [aws_security_group.five.id]
@@ -25,7 +25,7 @@ EOF
 }
 
 resource "aws_instance" "two" {
-  ami             = "ami-03c7d01cf4dedc891"
+  ami             = "ami-078efad6f7ec18b8a"
   instance_type   = "t2.micro"
   key_name        = "rahamnewkp01"
   vpc_security_group_ids = [aws_security_group.five.id]
@@ -44,7 +44,7 @@ EOF
 }
 
 resource "aws_instance" "three" {
-  ami             = "ami-03c7d01cf4dedc891"
+  ami             = "ami-078efad6f7ec18b8a"
   instance_type   = "t2.micro"
   key_name        = "rahamnewkp01"
   vpc_security_group_ids = [aws_security_group.five.id]
@@ -55,7 +55,7 @@ resource "aws_instance" "three" {
 }
 
 resource "aws_instance" "four" {
-  ami             = "ami-03c7d01cf4dedc891"
+  ami             = "ami-078efad6f7ec18b8a"
   instance_type   = "t2.micro"
   key_name        = "rahamnewkp01"
   vpc_security_group_ids = [aws_security_group.five.id]
